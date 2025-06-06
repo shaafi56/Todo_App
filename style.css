@@ -1,0 +1,83 @@
+/* General page styling */
+body {
+    background: linear-gradient(to right, #7ED6DF, #70A1FF);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Container for the todo app */
+.constainer {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+/* Header styles */
+.todo-header {
+    text-align: center;
+}
+
+.todo-header h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+/* Input and Add Icon */
+.todo-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: #f2f2f2;
+    padding: 8px 12px;
+    border-radius: 30px;
+    border: 2px solid #0000f5;
+}
+
+.todo-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.add-todo-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Task list */
+.list-items {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.list-items li {
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+.todo-controls {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin: 5px;
+}
